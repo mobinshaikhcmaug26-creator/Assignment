@@ -1,0 +1,22 @@
+package forloop;
+
+public class NumberPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int irow=1;irow<=6;irow++) {
+			for(int jcol=1;jcol<=irow;jcol++) {
+	    		System.out.print(" "+jcol);
+			}
+       System.out.println();
+	   }
+	}
+}
+/*
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6
+*/
